@@ -1,0 +1,129 @@
+:root {
+    --primary-color: rgb(20, 20, 20);
+    --font-primary: 'Roboto', sans-serif;
+    --font-secondary: 'Goudy Bookletter 1911', serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+h1 {
+    margin: 0;
+}
+
+body {
+    font-family: var(--font-primary);
+    width: 100vw;
+    background-color: rgb(146, 206, 214);
+    height: 100vh;
+    margin: 0 auto;
+    font-size: 1.6rem;
+    display:flex;
+    justify-content: center;
+    align-items:center
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 957px;
+    height: 823px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+main .name {
+    font-size: 6.2rem;
+    font-weight: 100;
+    word-spacing: 60px;
+    text-align: center;
+    font-family: var(--font-secondary);
+    margin-bottom: 10px;
+    letter-spacing:2px
+}
+
+
+main .info {
+    width: 92%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 3.9rem;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+main .price {
+    display: flex;
+    align-items: center
+}
+
+main .price h2 {
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+main .price p {
+    font-size: 2.4rem;
+    margin-left: 3px;
+}
+
+
+main .title {
+    font-size: 6.8rem;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+main .content--articles {
+    display: flex;
+    width: 90%;
+}
+
+main .left-side {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding-right: 20px;
+    border-right: 2px solid black;
+}
+
+main .left-side h2 {
+    margin: 0px 0px 20px 0px;
+    font-size: 5.3rem;
+    padding-left: 15px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+
+}
+
+main .left-side .pharagraph {
+    display: flex;
+    padding-right: 20px;
+    justify-content:space-between
+}
+
+main .left-side .pharagraph p {
+    width: 45%;
+}
+
+main .right-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .right-side img {
+    height: 95%;
+    margin-left: 20px;
+    transform: rotate(-1deg);
+}
